@@ -10,6 +10,10 @@ module.exports = function (filepath, cb) {
 		length = stdout.toString();
 	});
 
+	childSpawn.stderr.on('data', function (stderr) {
+		err = stderr.toString();
+	});
+
 	childSpawn.on('close', function () {
 		cb.apply(err, length);
 	});
