@@ -39,7 +39,7 @@ Path to the file
 
 ### callback(error, length)
 
-Type: 'function'
+Type: `function`
 
 Callback to be called once length is calculated
 
