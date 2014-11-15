@@ -1,4 +1,4 @@
-# mp3-length
+# mp3-length ![Travis-Build](https://travis-ci.org/apsdehal/mp3-length.svg?branch=master)
 
 > Calculate length of a mp3
 
