@@ -1,4 +1,5 @@
 'use strict';
+
 // Require the child process
 var cp = require('child_process');
 
